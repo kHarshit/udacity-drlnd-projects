@@ -10,7 +10,7 @@ For this project, a RL  agent is trained to navigate (and collect bananas!) in a
 
 ![navigation.gif](navigation.gif)
 
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.  Given this information, the agent has to learn how to best select actions.  Four discrete actions are available, corresponding to:
 - **`0`** - move forward.
@@ -18,7 +18,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - **`2`** - turn left.
 - **`3`** - turn right.
 
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ### Getting Started
 
@@ -32,8 +32,8 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Follow the instructions in [`Navigation.ipynb`](Navigation.ipynb) to train your agent. The trained weights are in `checkpoint.pth`.
+2. Follow the instructions in [**`Navigation.ipynb`**](https://nbviewer.jupyter.org/github/kHarshit/udacity-drlnd-projects/blob/master/p1_navigation/Navigation.ipynb) to train your agent. The trained weights are in `checkpoint.pth`.
 
-3. Check [`Report.md`](Report.md) to know more about the learning algorithm and model
+3. Check [**`Report.md`**](Report.md) to know more about the learning algorithm and model
    architecture.
 

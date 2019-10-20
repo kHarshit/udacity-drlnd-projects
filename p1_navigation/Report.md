@@ -14,7 +14,7 @@ This project uses [Deep Q Network
 
 ### Model architecture
 
-The Deep Q Network has the following architecture having three fully connected
+The Deep Q Network has the following architecture having three four connected
 layers.
 
 ```
@@ -68,5 +68,5 @@ Environment solved in 336 episodes!	Average Score: 13.04
 * Try different network architecture with varied number of layers, and number of neurons.
 * Try different combinations of hyperparameters.
 * Use regularization such as dropout in the network.
-* Use more advanced algorithm Q learning algorithms.
+* Use more advanced Q learning algorithms such as double/dueling DQN.
 

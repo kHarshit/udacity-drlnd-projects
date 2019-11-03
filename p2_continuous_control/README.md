@@ -20,8 +20,6 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ## Getting Started
 
----
-
 ### Dependencies
 
 To set up your python environment to run the code in this repository, follow the instructions below.
@@ -36,7 +34,7 @@ To set up your python environment to run the code in this repository, follow the
 * Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.
 
 
-* Clone the repository (if you haven't already!), and navigate to the `dependencies/` folder in the root of this repo.  Then, install the dependencies.
+* Clone the repository (if you haven't already!), and navigate to the [`dependencies/`](../dependencies/) folder in the root of this repo.  Then, install the dependencies.
 
     ```bash
     git clone https://github.com/kHarshit/udacity-drlnd-projects.git

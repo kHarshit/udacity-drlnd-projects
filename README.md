@@ -1,3 +1,5 @@
+***Update:** Please check [udacity-nanodegree-projects](https://github.com/kHarshit/udacity-nanodegree-projects) repository!*
+
 # udacity-drlnd-projects
 
 This repository contains the projects of the Udacity's [Deep Reinforcement Learning](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program.
